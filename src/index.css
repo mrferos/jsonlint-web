@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #DCDCDC;
+  color: #585858;
+  overflow: hidden;
+}
+
+#json {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height:100%;
+  float: right;
+  z-index: 0;
+  font-family: 'Source Code Pro', monospace;  
+  outline: none;
+  overflow: auto;
+}
+
+#lintButton {
+  z-index: 2;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+
+}
+
+#lintButton button {
+  width: 200px;
+  height: 75px;
+  border-radius: 10px;
+  border-color: #2C2C2C;
+  border-width: 1px;
+  opacity: 0.5;
+  font-size: 36px;
+  outline: none;
+}
+
+.lint-error {
+  background-color: #FF9494;
+  border-color: #B51020;
+}
+
+.lint-good {
+  background-color: #00FF00;
+}
