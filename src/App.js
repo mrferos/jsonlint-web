@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { parse, parser } from 'jsonlint';
-import { formatter } from 'jsonlint/lib/formatter';
+import { parse, parser } from './utils/json/jsonlint';
+import { formatter } from './utils/json/formatter';
 import classHelper from './utils/class';
 
 const defaultContent = 'Paste json...';
